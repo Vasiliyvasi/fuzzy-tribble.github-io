@@ -1,276 +1,1055 @@
-<!DOCTYPE html>
-<html lang="zxx">
+* {
+    margin: 0;
+    padding: 0;
+}
 
-<head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,600;1,800&display=swap"
-        rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/c4c41900f7.js" crossorigin="anonymous"></script>
-</head>
+html {
+    scroll-behavior: smooth;
+}
 
-<body>
-    <section class="top center">
-        <header class="header">
-            <i class="fa-solid fa-bars fa-2xl" style="color: #ffffff;"></i>
-            <nav class="nav">
-                <ul class="menu">
-                    <li class="menu_li"><a href="#info_rewind" class="link_menu link_menu_active">home</a></li>
-                    <li class="menu_li"><a href="#info_rewind2" class="link_menu">portfolio</a></li>
-                    <li class="menu_li"><a href="#info_rewind3" class="link_menu">about&nbsp;us</a></li>
-                    <li class="menu_li"><a href="#info_rewind4" class="link_menu">contact</a></li>
-                </ul>
-                <i class="fa-solid fa-xmark fa-2xl" style="color: #ffffff;"></i>
-            </nav>
-        </header>
-        <div class="top_content">
-            <div class="top_info">
-                <h1 class="title">our strong organaisation</h1>
-                <p class="text top_text">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor
-                    incididunt
-                    ut labore et. ectetur adig ipis cing elit, sed do eiusmod tempor incididunt.</p>
-                <a href="#" class="button">Contact Us</a>
-            </div>
-            <video controls class="top_video" src="png.mp4"></video>
-        </div>
-    </section>
-    <section class="service  center">
-        <div class="service-flex">
-            <div class="service-flex_content">
-                <h2 class="heading">do you know we can provide for you ?</h2>
-                <p class="text">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor
-                    incididunt
-                    ut labore et.Lorem ni ipsum dolor sit amet, consectetur adipis cing elit, ed doi eiusmod tempor
-                    incididunt ut labore et.</p>
-                <a href="#" class="service_button">Learn More</a>
-            </div>
-            <div id="info_rewind" class="service-flex_info">
-                <article class="service_item">
-                    <img class="servece_img" src="img/Combined_shape_15719.svg" alt="картинка">
-                    <h3 class="service_heading">Management</h3>
-                    <p class="text">Lorem ipsum dolor sitea amet, zixf conseit adipi cing elit, seddi do eiusmod
-                        btdempor in
-                        didunt utlae ore etioe.Lorem ipsum new idolor</p>
-                </article>
-                <article class="service_item">
-                    <img class="servece_img-korondash" src="img/korondash.svg" alt="картинка">
-                    <h3 class="service_heading">UI /UX Design</h3>
-                    <p class="text">Lorem ipsum dolor sitea amet, zixf conseit adipi cing elit, seddi do eiusmod
-                        btdempor in
-                        didunt utlae ore etioe.Lorem ipsum new idolor</p>
-                </article>
-                <article class="service_item">
-                    <img class="servece_img-diamond" src="img/diamond.svg" alt="картинка">
-                    <h3 class="service_heading">Logo / Branding</h3>
-                    <p class="text">Lorem ipsum dolor sitea amet, zixf conseit adipi cing elit, seddi do eiusmod
-                        btdempor in
-                        didunt utlae ore etioe.Lorem ipsum new idolor</p>
-                </article>
-                <article class="service_item">
-                    <img class="servece_img-car" src="img/car.svg" alt="картинка">
-                    <h3 class="service_heading">Animation</h3>
-                    <p class="text">Lorem ipsum dolor sitea amet, zixf conseit adipi cing elit, seddi do eiusmod
-                        btdempor in
-                        didunt utlae ore etioe.Lorem ipsum new idolor</p>
-                </article>
-            </div>
-        </div>
-    </section>
-    <section id="info_rewind2" class="products">
-        <h2 class="heading heading_center">feature products</h2>
-        <p class="text text_width_500">Lorem ipsum dolor sit amet, consectetur adipis cing elit,sed do eiusmod tempor
-            incididunt ut labore et.</p>
-        <div class=" line products_line"></div>
-        <div class="products__box">
-            <div class="products__links">
-                <a href="#" class="products__link products__link_active">all</a>
-                <a href="#" class="products__link products__link_min">print template</a>
-                <a href="#" class="products__link products__link_max">web template</a>
-                <a href="#" class="products__link">user interface</a>
-                <a href="#" class="products__link">mock-up</a>
-            </div>
-            <div class="array__box"></div>
-            <div class="products__items">
-                <a class="products__item" href="#"><img src="img/ket1.png" alt="картинка"></a>
-                <a class="products__item" href="#"><img src="img/ket2.png" alt="картинка"></a>
-                <a class="products__item" href="#"><img src="img/ket3.png" alt="картинка"></a>
-                <a class="products__item" href="#"><img src="img/ket4.png" alt="картинка"></a>
-                <a class="products__item" href="#"><img src="img/ket5.png" alt="картинка"></a>
-                <a class="products__item" href="#"><img src="img/ket6.png" alt="картинка"></a>
-                <a class="products__item" href="#"><img src="img/ket7.png" alt="картинка"></a>
-                <a class="products__item" href="#"><img src="img/ket8.png" alt="картинка"></a>
-            </div>
-        </div>
-    </section>
+body {
+    font-family: 'Open Sans', sans-serif;
+}
 
-    <section id="info_rewind3" class="meet center">
-        <div class="meet__top">
-            <h2 class="heading">Meet our team</h2>
-            <p class="text text_small meet__text">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed dooing
-                eiusmod
-                tempor
-                incididut labore Ui / Ux , print template.</p>
-            <div class="line"></div>
-        </div>
-        <div class="meet__content">
-            <img class="meet__person meet__person_img" src="img/buu.png
-            " alt="selected person">
-            <div class="meet__info">
-                <h3 class="meet__heading">mark waugh</h3>
-                <p class="text text__big">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed dooing eiusmod
-                    tempor incididut labore Ui / Ux , print template.</p>
-                <div class="meet__links">
-                    <a href="#" class="meet__link">Facebook</a>
-                    <a href="#" class="meet__link">Dribble</a>
-                    <a href="#" class="meet__link">Behance</a>
-                    <a href="#" class="meet__link">Twiter</a>
-                </div>
+.fa-solid {
+    display: none !important;
+}
 
-                <div class="meet__peoples">
-                    <img src="img/buu.png" alt="foto" class="meet__people meet__person_img">
+img {
+    max-width: 100%;
+}
 
-                    <div class="meet__name-box">
-                        <h4 class="meet__person-name">sokina jue Lorem ipsum dolor</h4>
-                    </div>
+a {
+    text-decoration: none;
+}
 
-                    <img src="img/du.png" alt="foto" class="meet__people meet__person_img">
-                    <div class="meet__name-box">
-                        <h4 class="meet__person-name">sokina jue</h4>
-                    </div>
-
-                    <img src="img/duu.png" alt="foto" class="meet__people meet__person_img">
-                    <div class="meet__name-box">
-                        <h4 class="meet__person-name">sokina jue</h4>
-                    </div>
-
-                    <img src="img/zu.png" alt="foto" class="meet__people meet__person_img">
-                    <div class="meet__name-box">
-                        <h4 class="meet__person-name">sokina jue</h4>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="subscride center">
-        <h2 class="heading heading_reverse">Design tips, tricks, and freebies. Delivered weekly.</h2>
-        <p class="text text_reverse subscribe__text">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do
-            eiusmod.</p>
-        <form action="#" class="subscride__form">
-            <input class="subscride__input" type="email" name="email" placeholder="Email Address...">
-            <button class="subscribe__button">subscribe</button>
-        </form>
-    </section>
-    <section class="get">
-        <h2 class="heading">get in touch</h2>
-        <p class="text .text_width_750 get__text
-            ">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore
-            et.ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et. ur adipis cing elit, sed do eiusmod
-            tempor incididunt ut labore et.</p>
-        <div class="line get_line"></div>
-        <div class="get__content">
-            <form action="#" class="get__form">
-                <input class="get__input" type="text" name="name" placeholder="Name">
-                <input class="get__input" type="email" name="email" placeholder="Your Mail">
-                <textarea class="get__input get__input_textarea" placeholder="Type your message"></textarea>
-                <button class="get__button">Send message</button>
-
-            </form>
-            <div class="get__contacts">
-                <h3 class="get__heading">contact info</h3>
-                <p class="get__contacts-text">Jalalabad 24 / A, Ambaarkhana, Sylhet, Bangladesh</p>
-                <a class="get__contacts-text" href="mailto:redwan@deviserweb.com">redwan@deviserweb.com</a>
-                <a class="get__contacts-text" href="tel:89003026743">89003026743</a>
-            </div>
-        </div>
-    </section>
-    <footer class="footer center">
-        <p class="footer__text">&copy; Copyright @Junaed <span class="footer__year">2024</span>, All rights reserved.
-        </p>
-        <div id="info_rewind4" class="footer__box">
-            <a href="#" class="footer__icon"><svg width="21" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                    <path
-                        d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" />
-                </svg></a>
-            <a href="#" class="footer__icon"><svg width="17" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                    <path
-                        d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-                </svg></a>
-            <a href="#" class="footer__icon"><svg width="25" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
-                    <path
-                        d="M386.061 228.496c1.834 9.692 3.143 19.384 3.143 31.956C389.204 370.205 315.599 448 204.8 448c-106.084 0-192-85.915-192-192s85.916-192 192-192c51.864 0 95.083 18.859 128.611 50.292l-52.126 50.03c-14.145-13.621-39.028-29.599-76.485-29.599-65.484 0-118.92 54.221-118.92 121.277 0 67.056 53.436 121.277 118.92 121.277 75.961 0 104.513-54.745 108.965-82.773H204.8v-66.009h181.261zm185.406 6.437V179.2h-56.001v55.733h-55.733v56.001h55.733v55.733h56.001v-55.733H627.2v-56.001h-55.733z" />
-                </svg></a>
-            <a href="#" class="footer__icon"><svg width="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                    <path
-                        d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" />
-                </svg></a>
-
-
-        </div>
-    </footer>
-    <script>
-        const linkSortMin = document.querySelector('.products__link_min');
-        const linkSortMax = document.querySelector('.products__link_max');
-        const arrayBox = document.querySelector('.array__box');
-
-        const users = [1000, 2000, 3000, 400, 5000, 600, 70, 800];
+.center {
+    padding-left: calc(50% - 1250px / 2);
+    padding-right: calc(50% - 1250px / 2);
+}
 
 
 
+.title {
+    font-style: italic;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #000000;
+}
 
-        linkSortMin.addEventListener('click', function (e) {
-            users.sort((a, b) => a - b);
-            console.log(users);
-        });
+.button {
+    background: #ff2d2d;
+    padding: 10px 60px;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18.0412px;
+    line-height: 34px;
+    letter-spacing: 0.3195px;
+    display: inline-block;
+    color: #FFFFFF;
+    transition: all .3s;
+    box-sizing: border-box;
+    border: 2px solid transparent;
 
-        linkSortMax.addEventListener('click', function (e) {
-            users.sort((a, b) => b - a);
-            console.log(users);
-        });
+}
 
-    </script>
-    <script>
-        const footerYearEL = document.querySelector('.footer__year');
-        let tobay = new Date();
-        let year = tobay.getFullYear();
+.button:hover {
+    background-color: #fff;
+    color: #FF2D2D;
+    outline: 2px solid #FF2D2D;
+    border: 2px solid #FF2D2D;
+}
 
-        footerYearEL.textContent = year;
+.service_button {
+    margin-top: 64px;
+    background: #FFFFFF;
+    padding: 10px 60px;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18.0412px;
+    line-height: 34px;
+    letter-spacing: 0.3195px;
+    display: inline-block;
+    color: #ff2d2d;
+    border: 2px solid;
 
-        const faEL = document.querySelector('.fa-bars');
-        const navEL = document.querySelector('.nav');
+    transition: all .3s;
+    box-sizing: border-box;
 
-        faEL.addEventListener('click', function (e) {
-            navEL.style.left = 0;
-        });
+}
 
-        const closeEL = document.querySelector('.fa-xmark');
+.service_button:hover {
+    background-color: #ff2d2d;
+    color: #fff;
+    outline: 2px solid #FF2D2D;
+    border: 2px solid #FF2D2D;
 
-
-        closeEL.addEventListener('click', function (e) {
-            navEL.style.left = '-100%';
-        });
-
-    </script>
-    // новое
-    <script>
-        const meetImg = document.querySelector('.meet__person_img');
-
-
-        const meetImgs = document.querySelectorAll('.meet__person_img');
-
-        meetImgs.forEach(meetminiImg => {
-            meetminiImg.addEventListener('click', function (e) {
-                meetImg.src = e.target.src;
-            });
-        });
+}
 
 
-    </script>
-</body>
+.top {
+    padding-top: 21px;
+    padding-bottom: 110px;
+    background: #F6F2F2;
+}
 
-</html>
+.top_content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.top_info {
+    width: 616px
+}
+
+.title {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 72px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 102px;
+    width: 617px;
+    height: 117px;
+}
+
+.text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.9953px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.top_video {
+    width: 550px;
+    height: 356px;
+    margin-top: 103px;
+}
+
+.top_text {
+    width: 544px;
+    height: 74px;
+    margin-top: 36px;
+    margin-bottom: 64px;
+
+}
+
+
+
+.header {
+
+    background-color: black;
+    opacity: 0.7;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.link_menu {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.49px;
+    text-transform: uppercase;
+    color: #E0E0E0;
+    display: flex;
+    padding: 38px 23px 26px;
+}
+
+.link_menu:hover {
+    background: #FF3F40;
+}
+
+.link_menu_active {
+    background: #FF3F40;
+}
+
+.service {
+    padding-top: 108px;
+
+}
+
+.service_heading {
+    margin-top: 33px;
+    margin-bottom: 13px;
+}
+
+.service-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 32px;
+    border-bottom: 5px solid #ececec;
+    padding-bottom: 98px;
+}
+
+.service-flex_content {
+    width: 538px;
+}
+
+.service-flex_info {
+    width: 609px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 52px;
+}
+
+.service_item {
+    flex-grow: 1;
+    flex-basis: 290px;
+}
+
+.servece_img {
+    transition: transform 2s;
+}
+
+.service_item:hover .servece_img {
+    transform: rotate(360deg);
+}
+
+@keyframes wobble-hor-top {
+
+    0%,
+    100% {
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+        -webkit-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+    }
+
+    15% {
+        -webkit-transform: translateX(-30px) rotate(6deg);
+        transform: translateX(-30px) rotate(6deg);
+    }
+
+    30% {
+        -webkit-transform: translateX(15px) rotate(-6deg);
+        transform: translateX(15px) rotate(-6deg);
+    }
+
+    45% {
+        -webkit-transform: translateX(-15px) rotate(3.6deg);
+        transform: translateX(-15px) rotate(3.6deg);
+    }
+
+    60% {
+        -webkit-transform: translateX(9px) rotate(-2.4deg);
+        transform: translateX(9px) rotate(-2.4deg);
+    }
+
+    75% {
+        -webkit-transform: translateX(-6px) rotate(1.2deg);
+        transform: translateX(-6px) rotate(1.2deg);
+    }
+}
+
+
+.service_item:hover .servece_img-korondash {
+    animation: wobble-hor-top 2s both;
+}
+
+@-webkit-keyframes heartbeat {
+    from {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    10% {
+        -webkit-transform: scale(0.91);
+        transform: scale(0.91);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    17% {
+        -webkit-transform: scale(0.98);
+        transform: scale(0.98);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    33% {
+        -webkit-transform: scale(0.87);
+        transform: scale(0.87);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    45% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+}
+
+@keyframes heartbeat {
+    from {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    10% {
+        -webkit-transform: scale(0.91);
+        transform: scale(0.91);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    17% {
+        -webkit-transform: scale(0.98);
+        transform: scale(0.98);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    33% {
+        -webkit-transform: scale(0.87);
+        transform: scale(0.87);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    45% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+}
+
+.service_item:hover .servece_img-diamond {
+    animation: heartbeat 1.5s ease-in-out infinite both;
+}
+
+
+
+
+.servece_img-car {
+    transition: margin 2s;
+}
+
+.service_item:hover .servece_img-car {
+    margin-left: 80px;
+}
+
+.servece_img-car {
+    text-overflow: linear;
+}
+
+
+.text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+}
+
+
+.text_width_500 {
+    width: 536px;
+    margin: 28px auto 32px;
+    text-align: center;
+}
+
+.text_width_750 {
+    width: 750px;
+}
+
+.text_small {
+    width: 459px;
+}
+
+.text__big {
+    max-width: 650px;
+}
+
+.text_reverse {
+    color: #ffffff;
+}
+
+.heading {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    letter-spacing: 0.38px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.heading_center {
+    text-align: center;
+}
+
+.heading_reverse {
+    color: #ffffff;
+    text-transform: none;
+}
+
+.line {
+    width: 134px;
+    height: 5px;
+    background: #FF2D2D;
+}
+
+.products {
+    padding-top: 105px;
+}
+
+.products__link {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0.22px;
+    color: #000000;
+    transition: color .3s;
+}
+
+.products__link:hover {
+    color: #FF2D2D;
+}
+
+.products__link_active {
+    color: #FF2D2D;
+}
+
+.products_line {
+
+    margin: auto;
+}
+
+.products__box {
+    padding-top: 86px;
+}
+
+.products__links {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.products__items {
+    margin-top: 58px;
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    padding-left: calc(50% - 1252px / 2);
+    padding-right: calc(50% - 1252px / 2);
+}
+
+.products__item {
+    display: flex;
+}
+
+.meet {
+    margin-top: 132px;
+    padding-left: calc(50% - 609px);
+    padding-bottom: 115px
+}
+
+.meet__text {
+    margin-top: 34px;
+    margin-bottom: 37px;
+}
+
+.meet__line {
+    width: 132px;
+    height: 5px;
+    background-color: #FF2D2D;
+}
+
+.meet__content {
+    margin-top: 66px;
+    display: flex;
+    gap: 75px;
+}
+
+.meet__heading {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30.127px;
+    letter-spacing: 0.275265px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 29px;
+    margin-top: 16px;
+}
+
+.meet__links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;
+    margin-top: 45px;
+}
+
+.meet__link {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.9px;
+}
+
+.meet__link:hover {
+    text-decoration: underline;
+}
+
+.meet__peoples {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    margin-top: 58px;
+}
+
+.meet__people {
+    display: flex;
+    position: relative;
+    width: 196px;
+    height: 216px;
+    background: #FF3F40;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    overflow: hidden;
+}
+
+.meet__people:hover .meet__name-box {
+    left: 0;
+}
+
+.meet__name-box {
+    background: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    left: -100%;
+    transition: left .3s;
+}
+
+.meet__person-name {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 18.0762px;
+    letter-spacing: 0.165159px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.subscride {
+    padding-top: 151px;
+    padding-bottom: 140px;
+    background: #2D2D2D;
+    text-align: center;
+
+}
+
+.subscribe__text {
+    margin-top: 16px;
+    margin-bottom: 56px;
+}
+
+.subscride__form {
+    display: flex;
+    gap: 22px;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.subscride__input {
+    width: 524px;
+    height: 82px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    outline: none;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #2C2C2C;
+    padding-left: 36px;
+    padding-right: 36px;
+    box-sizing: border-box;
+}
+
+.subscribe__button {
+    background: #FF2D2D;
+    padding-left: 56px;
+    padding-right: 56px;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17.9026px;
+    line-height: 34px;
+    letter-spacing: 0.317046px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    transition: all .3s;
+    box-sizing: border-box;
+    border: 2px solid transparent;
+}
+
+.subscribe__button:hover {
+    background-color: #fff;
+    color: #FF2D2D;
+    /* outline: 2px solid #FF2D2D; */
+    border: 2px solid #FF2D2D;
+    ;
+
+
+}
+
+.get {
+    padding-top: 104px;
+    padding-bottom: 107px;
+    padding-left: calc(50% - 1250px / 2);
+}
+
+.get__form {
+    width: 734px;
+    display: grid;
+    grid-row-gap: 43px;
+    grid-column-gap: 52px;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.get__text {
+    margin-top: 45px;
+    margin-bottom: 58px;
+    margin-right: 661px;
+
+
+
+}
+
+.get__input {
+    height: 69px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.9134px;
+    line-height: 28px;
+    color: #000000;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding-left: 50px;
+    padding-right: 50px;
+    border: none;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 5px;
+}
+
+.get__input_textarea {
+    height: 252px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    resize: none;
+    grid-column: 1 / -1;
+}
+
+.get__content {
+    display: flex;
+    padding-top: 74px;
+    gap: 104px;
+    flex-wrap: wrap;
+
+
+}
+
+.get__contacts {
+    background: #2D2D2D;
+    padding-left: 81px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    flex-grow: 1;
+
+}
+
+.get__button {
+    background: #FF3B3B;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 34px;
+    text-align: center;
+    letter-spacing: 0.317046px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    color: #FFFFFF;
+    border: none;
+    height: 75px;
+    grid-column: 1 / -1;
+    border: 2px solid transparent;
+    transition: all .3s;
+
+
+}
+
+.get__button:hover {
+    background-color: #FFFFFF;
+    color: #FF2D2D;
+    border: 2px solid #000;
+}
+
+.get__heading {
+    font-weight: 700;
+    font-size: 17.9026px;
+    line-height: 34px;
+    letter-spacing: 0.317046px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+
+.get__contacts-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    width: 315px;
+}
+
+.footer {
+    padding-top: 47px;
+    padding-bottom: 31px;
+    background: #2D2D2D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__box {
+    display: flex;
+    gap: 18px;
+}
+
+.footer__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #B8B8B8;
+}
+
+.footer__icon {
+    background-color: #fff;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    transition: all .3s;
+}
+
+.footer__icon:hover {
+    background-color: #ff2d2d;
+}
+
+.path {
+    transition: fill .3s;
+}
+
+.footer__icon:hover path {
+    fill: white;
+}
+
+@media (max-width: 1024px) {
+
+    .center,
+    .products__items,
+    .get {
+        padding-left: calc(50% - 734px / 2);
+        padding-right: calc(50% - 734px / 2);
+
+    }
+
+    .top_video {
+        width: 100%;
+    }
+
+    .top_content {
+        gap: 32px;
+        justify-content: center;
+
+    }
+
+    .service-flex {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .service-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .products__items {
+        justify-content: center;
+    }
+
+    .products__links {
+        gap: 32px;
+    }
+
+    .products__link {
+        font-size: 20px;
+    }
+
+    .meet__content {
+        gap: 32px;
+        align-items: flex-end;
+    }
+
+    .meet__people {
+        width: 181px;
+        height: 190px;
+    }
+
+    .text_width_750 {
+        width: 100%;
+    }
+
+    .get {
+        padding-bottom: 32px;
+    }
+
+    .get__content {
+        gap: 32px;
+    }
+
+    .get__contacts {
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+
+    .get__text {
+        margin: 0 auto;
+    }
+
+    .line {
+
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .top {
+        position: relative;
+    }
+
+    .fa-bars {
+        margin-right: 32px;
+    }
+
+    .fa-xmark {
+
+        position: absolute;
+        top: 32px;
+        right: 32px;
+    }
+
+    .fa-solid {
+        display: var(--fa-display, inline-block) !important;
+    }
+
+
+    .header {
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+    }
+
+
+
+    .link_menu_active {
+        background: none;
+
+    }
+
+    .menu {
+        flex-direction: column;
+    }
+
+    .nav {
+        position: absolute;
+        top: 0;
+        transition: left .5s;
+        left: -100%;
+        width: 100%;
+        background-color: #000;
+        ;
+    }
+
+    .title {
+
+        font-size: 40px;
+        line-height: 42px;
+        text-align: center;
+        margin-top: 100px;
+
+    }
+
+    .text {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .text_width_500,
+    .text_width_750,
+    .text_small {
+        width: 100%;
+
+    }
+
+    .text__big {
+        max-width: 100%;
+    }
+
+    .top_text {
+        width: 100%;
+    }
+
+    .top_info {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .top_video {
+        height: 200px;
+    }
+
+    .service-flex_content {
+        width: 100%;
+    }
+
+    .heading {
+        font-size: 32px;
+        text-align: center;
+
+    }
+
+
+    .products__links {
+        flex-wrap: wrap;
+    }
+
+    .products {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .meet__content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subscride__form {
+        flex-direction: column;
+    }
+
+    .subscride__input,
+    .subscribe__button {
+        width: 100%;
+        height: 62px;
+    }
+
+    .get__form {
+        width: 100%;
+        grid-row-gap: 24px;
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 16px;
+        padding-right: 16px;
+        box-sizing: border-box;
+    }
+
+    .get__text {
+        padding-left: 16px;
+        padding-right: 16px;
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+
+    .get__contacts {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .get_line {
+        margin: auto;
+    }
+
+    .get__contacts-text {
+        width: 100%;
+    }
+
+    .meet__people {
+        width: 156px;
+        height: 160px;
+
+    }
+
+    .footer {
+        flex-direction: column-reverse;
+        gap: 16px;
+    }
+
+    .line {
+        margin-top: 30px;
+    }
+
+
+
+}
