@@ -655,6 +655,7 @@ a {
 .get__text {
     margin-top: 45px;
     margin-bottom: 58px;
+    margin-right: 661px;
 
 
 
@@ -860,6 +861,15 @@ a {
         padding-top: 64px;
         padding-bottom: 64px;
     }
+
+    .get__text {
+        margin: 0 auto;
+    }
+
+    .line {
+
+        margin-top: 30px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -1009,6 +1019,7 @@ a {
         padding-left: 16px;
         padding-right: 16px;
         box-sizing: border-box;
+        margin: 0 auto;
     }
 
     .get__contacts {
@@ -1033,6 +1044,10 @@ a {
     .footer {
         flex-direction: column-reverse;
         gap: 16px;
+    }
+
+    .line {
+        margin-top: 30px;
     }
 
 
