@@ -3,13 +3,17 @@
     padding: 0;
 }
 
-html {
+/* 
+. {
     scroll-behavior: smooth;
-}
+} */
 
 body {
     font-family: 'Open Sans', sans-serif;
+
 }
+
+
 
 .fa-solid {
     display: none !important;
@@ -140,6 +144,8 @@ a {
     margin-top: 103px;
 }
 
+
+
 .top_text {
     width: 544px;
     height: 74px;
@@ -181,6 +187,35 @@ a {
 .link_menu_active {
     background: #FF3F40;
 }
+
+.scroll-up {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    display: none;
+    margin-bottom: 115px;
+    scroll-behavior: smooth;
+}
+
+.scroll-up__show {
+    display: block;
+}
+
+.scroll-up__img {
+    width: 66px;
+}
+
+.scroll-up__link {
+    display: flex;
+    width: 66px;
+}
+
+.scroll-up:hover {
+    bottom: 20px;
+    transform: scale(1.2);
+}
+
+
 
 .service {
     padding-top: 108px;
@@ -534,6 +569,7 @@ a {
 }
 
 .meet__people {
+    object-fit: none;
     display: flex;
     position: relative;
     width: 196px;
@@ -558,6 +594,10 @@ a {
     bottom: 0;
     left: -100%;
     transition: left .3s;
+}
+
+.meet__person {
+    object-fit: cover;
 }
 
 .meet__person-name {
@@ -591,6 +631,7 @@ a {
 }
 
 .subscride__input {
+    border: none;
     width: 524px;
     height: 82px;
     background-color: #ffffff;
